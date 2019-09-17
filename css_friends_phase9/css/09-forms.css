@@ -1,0 +1,18 @@
+/* PHASE 9: Forms */
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb {
+  display: block;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.input{
+margin: 0 0 20px 0;
+}

@@ -1,0 +1,93 @@
+  
+  
+  ul {
+  list-style: none;
+}
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 4px solid black; */
+  /* border-style: solid; */
+  width: 300px; 
+  margin: 30px auto;
+}
+
+li {
+  height: 90px;
+  width: 90px;
+  border: 5px solid black;
+  background: grey;
+  /* border-style: solid; */
+  cursor: pointer;
+  font-size: 90px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 30px;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+li:hover {
+  background: chartreuse;
+}
+
+li .x{
+  align-content: flex-end;
+  font-size: 90px;
+}
+
+li .o{
+  align-content: center;
+  font-size: 90px;
+}
+
+.game-over li {
+  color: rgb(116, 55, 55);
+  cursor: default;
+  background: white;
+  font-weight: bolder;
+  font-size: 90px;
+}
+
+.x:after {
+  content: "X";
+}
+
+.o:after {
+  content: "O";
+}
+
+.winner-x{
+  color: coral;
+  font-size: 90px;
+}
+
+.winner-o{
+  color: navy;
+  font-size: 90px;
+}
+figcaption{
+  color: rebeccapurple;
+  font-size: 90px;
+
+}
+
+.restart {
+  color: mistyrose;
+  background-color: black;
+  font-size: 99px;
+  font-weight: bolder;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background: chartreuse;
+  font-size: 110px;
+}
